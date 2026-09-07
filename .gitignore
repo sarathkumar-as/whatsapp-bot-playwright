@@ -1,0 +1,27 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# WhatsApp login/session data
+whatsapp_profile/
+
+# Generated output files
+output/
+
+# Private contact information
+contacts.xlsx
+
+# Environment variables and secrets
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

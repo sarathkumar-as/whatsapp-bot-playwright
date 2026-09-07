@@ -1,31 +1,30 @@
-# Python temporary files
+# Python cache
 __pycache__/
 *.py[cod]
-*.pyo
 
 # Python virtual environments
 venv/
 .venv/
 env/
 
-# WhatsApp browser profile and login session
+# WhatsApp browser login/session
 whatsapp_profile/
 
-# Private contact information
+# Private Excel contact files
 contacts.xlsx
 contacts*.xlsx
+
+# Allow only the fake sample workbook
 !sample/contacts_sample.xlsx
 
 # Generated output
 output/
-
-# Environment variables and secrets
-.env
-*.env
-
-# Playwright temporary files
 playwright-report/
 test-results/
+
+# Passwords, tokens and secrets
+.env
+*.env
 
 # Jupyter temporary files
 .ipynb_checkpoints/
@@ -33,9 +32,7 @@ test-results/
 # VS Code local settings
 .vscode/
 
-# Windows temporary files
+# Operating-system files
 Thumbs.db
 desktop.ini
-
-# macOS temporary files
 .DS_Store

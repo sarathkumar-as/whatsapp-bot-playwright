@@ -1,27 +1,41 @@
 # Python temporary files
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Virtual environment
+# Python virtual environments
 venv/
 .venv/
+env/
 
-# WhatsApp login/session data
+# WhatsApp browser profile and login session
 whatsapp_profile/
-
-# Generated output files
-output/
 
 # Private contact information
 contacts.xlsx
+contacts*.xlsx
+!sample/contacts_sample.xlsx
+
+# Generated output
+output/
 
 # Environment variables and secrets
 .env
 *.env
 
-# VS Code settings
+# Playwright temporary files
+playwright-report/
+test-results/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# VS Code local settings
 .vscode/
 
-# Operating-system files
-.DS_Store
+# Windows temporary files
 Thumbs.db
+desktop.ini
+
+# macOS temporary files
+.DS_Store
